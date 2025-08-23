@@ -1,368 +1,356 @@
-<!-- HELLO
--
-DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
-Created by Anil Seervi.
--
-GitHub repo: https://github.com/AnilSeervi/DevFolio
-README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
--
-Have fun creating your portfolio on this template!!! -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+  <!-- Title: add your Portfolio websites's title here -->
+  <title>[Sukhada Chiplunkar] | Data Analyst</title>
 
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[sukhuchiku],[sukhu.chiku],[Sukhu.Chiku],[SukhuChiku], [Sukhada Chiplunkar], python,sql, data analysis, data vizualization" />
 
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Sukhada Chiplunkar] , Data Analyst , [Sukhu.Chiku], [sukhuchiku]" />
 
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
+  <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+  <link rel="icon" type="image/png" href="./assets/profile.png" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://devfolio.js.org/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+  <!-- Add your primary-theme color for the value of content -->
+  <meta name="theme-color" content="#36d1dc" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <!-- Fill content with the URL of this portfolio you'll host -->
+  <meta property="og:url" content="https://sukhadachiplunkar.com/" />
+  <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+  <meta property="og:title" content="[Sukhada Chiplunkar] | Data Analyst" />
+  <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+  <meta property="og:description" content="Sukhada Chiplunkar's Portfolio" />
+  <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://devfolio.js.org/assets/devfolio.png"
-    />
+  <meta property="og:image" content="https://devfolio.js.org/assets/devfolio.png" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
-    />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <!-- Again fill content attr with the URL of this portfolio you'll host -->
+  <meta property="twitter:url" content="https://sukhadachiplunkar.com/" />
+  <!-- Recommended to use the same text used within <title> element -->
+  <meta property="twitter:title" content="Sukhada Chiplunkar] | Data Analyst" />
+  <!-- short description that shows up while your portfolio is shared -->
+  <meta property="twitter:description" content="Sukhada Chiplunkar's Portfolio" />
+  <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+  <meta property="twitter:image" content="https://anilseervi.vercel.app/assets/devfolio.png" />
 
-    <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+  <!-- link tags -->
+  <link rel="preload" as="style" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
 
-    <!-- FontAwesome Icons link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script defer src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+  <!-- FontAwesome Icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="./javascript/scrollreveal.min.js"></script>
+  <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
+</head>
 
-      gtag("config", "UA-122228201-4")
-    </script>
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+<body>
+
+<nav class="navbar">
+
+   <a href="#hero" class="logo">portfolio</a>
+  <ul class="nav-links">
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projectSection">Projects</a></li>
+    <li><a href="#contactMe">Contact</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Hero Section -->
+  <div id="hero">
+    <section class="container">
+      <h1 class="hero-title">
+        Hello, I am <span class="text-color-main name">Sukhada Chiplunkar</span>
+        <br />
+        Data Analyst | Ex-SWE
+      </h1>
+      <p class="hero-cta">
+        <a class="cta-btn cta-btn--hero" href="#about">View Profile</a>
+      </p>
+    </section>
+    <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+      <div class="scroll-down"></div>
+    </a>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="about-wrapper__image">
+          <img class="img-fluid" src="./assets/Headshot.PNG" alt="Profile Image" width="450" height="350" />
+        </div>
+        <div class="about-wrapper__info">
+          <p class="about-wrapper__info-text">
+            I have 6+ years of experience with strong expertise in SQL, Python, Data analysis and vizualization. I have
+            completed Data Analytics certificate from University of Cincinnati (onsite) and a Master's in Information
+            Systems.
+            I am a former Software Engineer and an aspiring Data Analyst with hands on experience in SQL, Python,
+            Tableau, Git and good understanding of Agile methodology.
+          </p>
+          <p class="about-wrapper__info-text">
+            I am confident that my technical expertise will enable me to contribute significant value in any challenging
+            and dynamic environment.
+            Currently returning to work after a maternity break with refreshed, job-ready DA skills. Eager to leverage
+            analytical thinking, coding skills and a keen ability to drive insights
+          </p>
+          <span class="about-wrapper__cta">
+            <a href="assets/SukhadaChiplunkarResume2025.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+          </span>
+        </div>
+      </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/profile.png"
-              alt="Profile Image"
-              width="450"
-              height="350"
-            />
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
-            </p>
-            <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
-            </p>
-            <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
-            </span>
-          </div>
+  <!--Education Section-->
+  <div id="education">
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Education</h2>
+        <div class="project-wrapper__text" style="text-align: center;">
+          <h3 class="project-wrapper__text-title" style="margin: 0 auto;"><b>Master of Science in Management Information
+              Systems</b></h3>
+          <p class="project-wrapper__text-info" style="margin: 0 auto;">University of Cincinnati, Carl H. Lindner
+            College of Business</p>
         </div>
+
+        <div class="project-wrapper__text" style="text-align: center;">
+          <h3 class="project-wrapper__text-title" style="margin: 0 auto;"><br><b>Bachelor of Engineering in Electronics
+              and Telecommunication</b></h3>
+          <p class="project-wrapper__text-info" style="margin: 0 auto;">University of Pune</p>
+        </div>
+</div>
+
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
-        </div>
-      </div>
-    </section>
-    <!-- END Contact Section -->
-
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
-          <a
-            href="https://github.com/AnilSeervi"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Anil Seervi</a
-          >. <br />Made with &hearts;
+  <!-- Work Exp Section -->
+   <div id="experience">
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          United Healthcare, Los Angeles CA
         </p>
-      </div>
-    </footer>
-    <!-- END Footer Section -->
+        <p class="contact-wrapper__text_work" style="text-align: center;">
+          <b>Software Engineer (Jan 2022 – Mar 2024) </b>
+        </p>
+        <p class="contact-wrapper__text_work">
+          ● Led a team of junior SWEs through key projects, including code migration to React, CI/CD migration from
+          Azure
+          DevOps to Git, MFA implementation for user-facing portals, and development of insurance claims/payment
+          solutions (CuresAct & Encounter)
+          </br>● Designed and developed multiple dashboards, web forms, APIs, and web services using .NET and React,
+          streamlining internal business processes and improving data accessibility
+          </br>● Created data processing engines with the .NET framework to convert large JSON data files into
+          structured and
+          cleaned raw data, enabling the analytics team to efficiently process and analyze information
+          </br>● Optimized SQL queries and wrote stored procedures, reducing report generation time by 30%,
+          significantly
+          improving efficiency for the analytics team
+          </br>● Led presentations and meetings with business stakeholders, clients, and senior management, providing
+          strategic
+          insights, project updates, and actionable recommendations
+        </p>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+        <p class="contact-wrapper__text">
+          Cognizant, Phoenix AZ
+        </p>
+        <p class="contact-wrapper__text_work" style="text-align: center;">
+          <b>Product Specialist (Mar 2021 – Jan 2022) </b>
+        </p>
+        <p class="contact-wrapper__text_work">
+          ●Developed multiple Tableau dashboards to visualize key insurance claim metrics, including claims filed, paid
+          claims, rejection reasons, and demographic data, enabling clients to gain actionable insights and improve
+          decision-making
+          <br>●Designed and implemented stored procedures for claim cleaning, scrubbing, and receipt processes,
+          streamlining data preparation and improving data quality
+          <br>●Created Encounter Data Dashboard reports using Python, and built an ASP.NET MVC application to display
+          the reports, enhancing data accessibility for internal teams
+          <br>●Analyzed EDI 837 files and collaborated with stakeholders to gather requirements, contributing to
+          successful Medicare and Medicaid submissions
+          <br>●Performed root cause analysis on scrubbed and rejected claims, resulting in a measurable increase in data
+          submission accuracy to DHS/CMS
+        </p>
+
+
+        <p class="contact-wrapper__text">
+          Analysis Express, Cincinnati OH
+        </p>
+        <p class="contact-wrapper__text_work" style="text-align: center;">
+          <b>Product Intern (May 2020 - Sept 2020) </b>
+        </p>
+        <p class="contact-wrapper__text_work">
+          ●Developed a Data Analysis Application (Desktop software) which used MS Excel underneath using COM add-in in
+          .NET framework, C#, SQL Server
+          <br>●Designed various Windows forms for the application and developed its functionality, UI and backend logic
+          <br>●Delivered a custom reporting mechanism with C# and SSMS, reducing client report generation time by 35%
+          <br>●Applied the solution to support operations for Automobile and Mechanical startups, improving data
+          analysis efficiency and decision-making
+        </p>
+
+        <p class="contact-wrapper__text">
+          Accenture Private Limited, Pune India
+        </p>
+        <p class="contact-wrapper__text_work" style="text-align: center;">
+          <b>Associate Software Engineer (Nov 2017 - Mar 2019) </b>
+        </p>
+        <p class="contact-wrapper__text_work">
+          ●Developed and maintained internal web portals for the client in MVC using ASP.NET, ADO.NET and SSMS
+          <br>●Developed Macros in VBA excel for daily reporting of SLAs, increasing the efficiency by 40%
+          <br>●Maintained version Control and code reviews on Azure DevOps; Communicated with Client on daily basis and
+          delivered presentation during client visits
+          <br>●Received Microsoft C# 70-483 Solutions Developer certification
+        </p>
+        <!-- <a href="#" class="cta-btn cta-btn--resume">Call to Action</a> -->
+      </div>
+    </div>
+  </section>
+</div>
+
+  <!--Projects Section-->
+    <div id="projectSection">
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">SF Marathon Analysis | Python, Tableau</h3>
+            <p class="project-wrapper__text-info">
+              Scraped the data from the SF Marathon website using Selenium, Cleaned and processed raw data using Python.
+              Built an interactive Tableau dashboard providing both high-level demographic insights and personalized
+              runner metrics. Contributed the dataset to Kaggle and published a detailed Medium article to guide others
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://public.tableau.com/app/profile/sukh.chip/viz/SFMarathonAnalysis_17557269158350/Main"
+                target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/SukhuChiku/SFMarathonAnalysis" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+
+            <div class="thumbnail rounded">
+              <img src="./assets/SFMarathonAnalysis.png" class="img-fluid" alt="Project Image" width="1366"
+                height="767" />
+            </div>
+            <!-- <a href="#" target="_blank" rel="noopener noreferrer"></a>
+              </a> -->
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Crypto Coins Analysis | Python, Matplotlib</h3>
+            <p class="project-wrapper__text-info">
+              Analyzed a Kaggle cryptocurrency dataset through data cleaning, preprocessing, and statistical analysis.
+              Calculated Annual Percent Return (APR) to rank cryptocurrencies over a 5-year period, identifying the top
+              3 performers. Assessed trading volume and market cap to find the most traded coins and market leaders.
+              Used Meta’s Prophet model for price trend forecasting and identified the most volatile coin using
+              historical fluctuations and standard deviation</p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://github.com/SukhuChiku/CryptoCoinsAnalysisAndPrediction/blob/main/CryptoAnalysis.ipynb"
+                target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/SukhuChiku/CryptoCoinsAnalysisAndPrediction" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+
+            <div class="thumbnail rounded">
+              <img src="./assets/CryptoAnalysis.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+            </div>
+            <!-- <a href="#" target="_blank" rel="noopener noreferrer"></a>
+              </a> -->
+          </div>
+        </article>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  </div>
+  <!-- End Projects Section -->
+
+  <!-- Contact Section -->
+     <div id="contactMe">
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+
+        <a href="mailto:chipsukh@gmail.com">
+          <p class="contact-wrapper__text" style="color: #fff; text-align: center;">
+            chipsukh@gmail.com
+          </p>
+        </a>
+
+        <p class="contact-wrapper__text">(513)-238-1469</p>
+        <!-- <a href="#" class="cta-btn cta-btn--resume">Call to Action</a> -->
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- END Contact Section -->
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="back-to-top" aria-label="go back to top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/sukhada-chiplunkar/" target="_blank" rel="noopener noreferrer"
+          aria-label="linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/SukhuChiku?tab=repositories" target="_blank" rel="noopener noreferrer"
+          aria-label="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <hr />
+      <p class="footer__text">
+          &copy; <span id="year"></span> - Sukhada Chiplunkar
+        </p>
+    </div>
+  </footer>
+  <!-- END Footer Section -->
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear()
+  </script>
+  <script src="./javascript/vanilla-tilt.min.js"></script>
+  <script type="text/javascript" src="./javascript/valtilt.js"></script>
+</body>
+
 </html>

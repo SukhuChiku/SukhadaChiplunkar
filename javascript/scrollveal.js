@@ -48,12 +48,19 @@ ScrollReveal().reveal(".about-wrapper__info", {
   origin: window.innerWidth > 768 ? "left" : "top",
 });
 
+ScrollReveal().reveal(".education-wrapper__text", {
+  ...defaultProps,
+  delay: 600,
+  origin: window.innerWidth > 768 ? "left" : "bottom",
+});
+
 /* Projects Section */
 ScrollReveal().reveal(".project-wrapper__text", {
   ...defaultProps,
   delay: 600,
   origin: window.innerWidth > 768 ? "left" : "bottom",
 });
+
 
 ScrollReveal().reveal(".project-wrapper__image", {
   ...defaultProps,
